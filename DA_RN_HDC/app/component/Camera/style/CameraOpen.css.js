@@ -1,0 +1,100 @@
+'use strict';
+
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      position: 'relative',
+      top: 0,
+      left: 0,
+      // flexDirection: 'column',
+      // backgroundColor: 'black',
+    },
+    preview: {
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+    },
+    capture: {
+      position: 'absolute',
+      bottom: 65,
+      backgroundColor: '#E0E0E0',
+      borderRadius: 200,
+      padding: 20,
+      alignSelf: 'center',
+      opacity: 0.5,
+      height: 80,
+      width: 80,
+    },
+    capture2: {
+      position: 'absolute',
+      bottom: 65,
+      backgroundColor: '#ffffff',
+      borderRadius: 200,
+      padding: 20,
+      alignSelf: 'center',
+      // opacity: 0.5,
+      height: 80,
+      width: 80,
+    },
+    btnBack: {
+      position: 'absolute',
+      left: 10,
+      top: 10,
+      width: 40,
+      height: 40,
+    },
+    diffirentCamera: {
+      position: 'absolute',
+      right: 20,
+      bottom: 10,
+      width: 40,
+      height: 40,
+        alignSelf: 'center',
+    },
+    FlashMode: {
+      position: 'absolute',
+      right: 20,
+      top: 10,
+      width: 40,
+      height: 40,
+    },
+    rollPicker: {
+      position: 'absolute',
+      bottom: 10,
+      left: 15,
+      borderRadius: 200,
+      padding: 20,
+      alignSelf: 'center',
+      height: 60,
+      width: 60,
+    },
+    btnSend: {
+      position: 'absolute',
+      right: 15,
+      bottom: 10,
+      width: 70,
+      height: 70,
+    },
+    btnSave: {
+      position: 'absolute',
+      left: 20,
+      bottom: 10,
+      width: 50,
+      height: 50,
+    },
+    imgRollPicker: {
+      position: 'absolute',
+      top: 10,
+      borderRadius: 200,
+      padding: 20,
+      alignSelf: 'center',
+      height: 30,
+      width: 30,
+    },
+});
+
+export default styles;
